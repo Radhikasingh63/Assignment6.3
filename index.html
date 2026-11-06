@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow and Layout Fixing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>CSS Overflow Demonstration</h1>
+        <p>Understanding overflow properties</p>
+    </header>
+
+    <main>
+
+        <section class="example">
+            <h2>1. Overflow: Visible</h2>
+            <div class="box visible">
+                This is a long paragraph demonstrating visible overflow.
+                The content extends outside the container when it exceeds
+                the fixed height. Overflow visible allows the extra content
+                to remain visible outside the box. This is useful when
+                content should not be clipped.
+            </div>
+        </section>
+
+        <section class="example">
+            <h2>2. Overflow: Hidden</h2>
+            <div class="box hidden">
+                This is a long paragraph demonstrating hidden overflow.
+                Extra content is clipped and cannot be seen outside
+                the fixed-height container. This property hides content
+                that exceeds the available space.
+            </div>
+        </section>
+
+        <section class="example">
+            <h2>3. Overflow: Auto</h2>
+            <div class="box auto">
+                This is a long paragraph demonstrating auto overflow.
+                When content exceeds the container height, a scrollbar
+                appears automatically. The user can scroll to view
+                additional content. This is useful for long descriptions
+                and fixed-size content areas.
+            </div>
+        </section>
+
+        <section class="example">
+            <h2>4. Overflow: Scroll</h2>
+            <div class="box scroll">
+                This is a long paragraph demonstrating scroll overflow.
+                Scrollbars are provided for the container so that
+                the user can view the extra content. This property
+                allows scrolling even when content fits inside.
+            </div>
+        </section>
+
+        <section class="example">
+            <h2>5. Fixed Layout Solution</h2>
+            <div class="fixed-layout">
+                <h3>Scrollable Information Box</h3>
+                <p>
+                    This container has a fixed height and overflow auto.
+                    It prevents the content from expanding the layout.
+                </p>
+                <p>
+                    Additional information is displayed inside
+                    the same container.
+                </p>
+                <p>
+                    The user can scroll whenever the content exceeds
+                    the available height.
+                </p>
+                <p>
+                    This is a simple example of fixing overflow
+                    in a webpage layout.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Overflow Demonstration</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Main */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Example Section */
+.example {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #2563eb;
+    margin-bottom: 15px;
+}
+
+/* Common Box */
+.box {
+    width: 100%;
+    height: 100px;
+    padding: 15px;
+    border: 2px solid #2563eb;
+    background-color: #dbeafe;
+}
+
+/* Overflow Visible */
+.visible {
+    overflow: visible;
+}
+
+/* Overflow Hidden */
+.hidden {
+    overflow: hidden;
+}
+
+/* Overflow Auto */
+.auto {
+    overflow: auto;
+}
+
+/* Overflow Scroll */
+.scroll {
+    overflow: scroll;
+}
+
+/* Fixed Layout */
+.fixed-layout {
+    height: 150px;
+    max-width: 100%;
+    overflow: auto;
+    background-color: #dcfce7;
+    border: 2px solid #16a34a;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
